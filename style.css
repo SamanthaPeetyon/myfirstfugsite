@@ -1,12 +1,38 @@
-h1 {
-    color: purple;
-    font-weight: bold;
+:root {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(120deg, red 0%, white 100%);
 }
 
-#bloxbucks {
-    color: purple;
+body {
+  background-color: #f5d6da;
+  padding: 60px 100px 100px;
+  margin: 45px auto;
+  width: 70%;
+  border: 5px dashed white;
+  border-radius: 60px;
+  box-sizing: border-box;
 }
 
-main p {
-    font-size: 2rem;
-    font-family: Arial, sans-serif;
+main {
+  background-color: white;
+  padding: 10px;
+  width: 40%;
+  float: left;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+aside {
+  background-color: white;
+  padding: 10px;
+  width: 40%;
+  float: right;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+footer {
+  padding-top: 30px;
+  clear: both;
+}
